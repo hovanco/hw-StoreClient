@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic-actions-add-simple" width="17" height="17" viewBox="0 0 17 17">
+    <defs>
+        <style>
+            .cls-2{fill:#525253}
+        </style>
+    </defs>
+    <path id="Rectangle_24" fill="none" d="M0 0H16V16H0z"/>
+    <g id="Layer" transform="translate(2.064 2.064)">
+        <path id="Path_62" d="M3 12.548c0-.8.287-1.468.667-1.548h12c.409 0 .741.693.741 1.548s-.332 1.548-.741 1.548h-12c-.38-.08-.669-.75-.667-1.548z" class="cls-2" transform="translate(-3 -5.841)"/>
+        <path id="Path_63" d="M12.548 3c.8 0 1.468.287 1.548.667v12c0 .409-.693.741-1.548.741S11 16.081 11 15.672v-12c.08-.38.75-.669 1.548-.667z" class="cls-2" transform="translate(-5.841 -3)"/>
+    </g>
+</svg>

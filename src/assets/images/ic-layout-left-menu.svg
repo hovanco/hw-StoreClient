@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.571" height="19.2" viewBox="0 0 20.571 19.2">
+    <defs>
+        <style>
+            .cls-2{fill:#7ca1bb;fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="ic-layout-left-menu">
+        <path id="Rectangle_172" fill="none" d="M0 0H20.571V19.2H0z" data-name="Rectangle 172"/>
+        <g id="Layer" transform="translate(.85 .794)">
+            <path id="Path_340" d="M1 3.381A2.471 2.471 0 0 1 3.551 1h13.608a2.471 2.471 0 0 1 2.551 2.381v12.7a2.471 2.471 0 0 1-2.551 2.381H3.551A2.471 2.471 0 0 1 1 16.082zm2.551-.794a.824.824 0 0 0-.85.794v12.7a.824.824 0 0 0 .85.794h13.608a.824.824 0 0 0 .85-.794v-12.7a.824.824 0 0 0-.85-.794z" class="cls-2" data-name="Path 340" transform="translate(-1 -1)"/>
+            <path id="Path_341" d="M1 3.381A2.471 2.471 0 0 1 3.551 1h13.608a2.471 2.471 0 0 1 2.551 2.381v5.557H1zm2.551-.794a.824.824 0 0 0-.85.794V7.35h15.308V3.381a.824.824 0 0 0-.85-.794z" class="cls-2" data-name="Path 341" transform="translate(-1 -1)"/>
+            <path id="Path_342" d="M1 17.732a2.471 2.471 0 0 0 2.551 2.381H9.5V9H1zm2.551.794a.824.824 0 0 1-.85-.794v-7.144H7.8v7.938z" class="cls-2" data-name="Path 342" transform="translate(-1 -2.65)"/>
+        </g>
+    </g>
+</svg>

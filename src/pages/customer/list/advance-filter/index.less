@@ -1,0 +1,48 @@
+
+.filer-order-dropdown{
+    .filter-status-gray {
+        background-color: @background_gray;
+        span {
+            color: @color_text_black;
+        }
+    }
+    .filter-status-blue {
+        background-color: @color_primary;
+        span {
+            color: @color_text_white;
+        }
+    }
+    
+    .filter-btn {
+        margin: 0;
+        background-color: @background_purple;
+        min-width: 180px;
+
+        span {
+            color: @color_text_white;
+        }
+    }
+
+    button {
+        margin: 0;
+
+        + button {
+            margin-left: 20px;
+        }
+    }
+
+    .ant-picker-range, .ant-picker {
+        width: 100%;
+    }
+
+    .remove-filter-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+            width: 18px;
+            height: 18px;
+        }
+    }
+}

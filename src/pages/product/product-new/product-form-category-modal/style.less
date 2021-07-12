@@ -1,0 +1,30 @@
+.prod-form-cate-modal {
+    &__row {
+        height: 374px;
+        overflow: hidden;
+        margin-top: 12px;
+    }
+    &__col {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-radius: 2px;
+        border: solid 1px #dee5e7;
+    }
+    &__item {
+        &.ant-list-item {
+            cursor: pointer;
+            border-bottom-color: transparent;
+            padding-left: 8px;
+            padding-right: 8px;
+            &:hover {
+                background-color: #dee5e7;
+            }
+            &.active {
+                .ant-typography {
+                    color: @color_primary;
+                }
+            }
+        }
+    }
+}

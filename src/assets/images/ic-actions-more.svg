@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic-actions-more-1" width="18" height="18" viewBox="0 0 18 18">
+    <defs>
+        <style>
+            .cls-2{fill:#6c6fbf;fill-rule:evenodd}
+        </style>
+    </defs>
+    <path id="Rectangle_43" fill="none" d="M0 0H18V18H0z"/>
+    <g id="Layer" transform="translate(3.75 .75)">
+        <g id="Vrstva_100">
+            <path id="Path_95" d="M11.25 17a2.25 2.25 0 1 0 2.25 2.25A2.25 2.25 0 0 0 11.25 17zm0 3a.75.75 0 1 1 .75-.75.75.75 0 0 1-.75.75z" class="cls-2" transform="translate(-9 -5)"/>
+            <path id="Path_96" d="M11.25 9a2.25 2.25 0 1 0 2.25 2.25A2.25 2.25 0 0 0 11.25 9zm0 3a.75.75 0 1 1 .75-.75.75.75 0 0 1-.75.75z" class="cls-2" transform="translate(-9 -3)"/>
+            <path id="Path_97" d="M11.25 1a2.25 2.25 0 1 0 2.25 2.25A2.25 2.25 0 0 0 11.25 1zm0 3a.75.75 0 1 1 .75-.75.75.75 0 0 1-.75.75z" class="cls-2" transform="translate(-9 -1)"/>
+        </g>
+    </g>
+    <g id="Layer-2" transform="translate(9.75 .75)">
+        <g id="Vrstva_100-2">
+            <path id="Path_95-2" d="M11.25 17a2.25 2.25 0 1 0 2.25 2.25A2.25 2.25 0 0 0 11.25 17zm0 3a.75.75 0 1 1 .75-.75.75.75 0 0 1-.75.75z" class="cls-2" transform="translate(-9 -5)"/>
+            <path id="Path_96-2" d="M11.25 9a2.25 2.25 0 1 0 2.25 2.25A2.25 2.25 0 0 0 11.25 9zm0 3a.75.75 0 1 1 .75-.75.75.75 0 0 1-.75.75z" class="cls-2" transform="translate(-9 -3)"/>
+            <path id="Path_97-2" d="M11.25 1a2.25 2.25 0 1 0 2.25 2.25A2.25 2.25 0 0 0 11.25 1zm0 3a.75.75 0 1 1 .75-.75.75.75 0 0 1-.75.75z" class="cls-2" transform="translate(-9 -1)"/>
+        </g>
+    </g>
+</svg>

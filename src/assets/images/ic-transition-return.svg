@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer" width="9.411" height="9.444" viewBox="0 0 9.411 9.444">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <path id="Path_84" d="M10.94 8.759a.429.429 0 1 1 .857 0V11.3a.429.429 0 1 1-.857 0z" class="cls-1" data-name="Path 84" transform="translate(-6.684 -5.173)"/>
+    <circle id="Ellipse_6" cx=".536" cy=".536" r=".536" class="cls-1" data-name="Ellipse 6" transform="translate(4.148 7.01)"/>
+    <path id="Path_85" fill="#fff" fill-rule="evenodd" d="M5.776 2.4a.086.086 0 0 0-.154 0L2.137 9.443a.086.086 0 0 0 .077.124h7.008a.086.086 0 0 0 .078-.124zm-.54-1.153a.514.514 0 0 1 .921 0l4.217 8.43a.514.514 0 0 1-.459.729h-8.39a.51.51 0 0 1-.459-.741z" data-name="Path 85" transform="translate(-1.01 -.963)"/>
+</svg>

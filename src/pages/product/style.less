@@ -1,0 +1,107 @@
+.product-tbl {
+    tbody tr {
+        cursor: pointer;
+    }
+    &__social {
+        .ant-table-row-level-1 & {
+            display: none;
+        }
+
+        img {
+            display: inline-block;
+            height: 16px;
+            width: 16px;
+        }
+    }
+    &__name {
+        .ant-table-row-level-1 & {
+            color: @text_color;
+        }
+    }
+    &__col-name {
+        width: 100%;
+        .ant-space-item {
+            &:nth-child(2) {
+                width: 100%;
+            }
+        }
+        .ant-table-row-level-1 & {
+            padding-left: 50px;
+        }
+    }
+    &__text-round {
+        .ant-table-row-level-1 & {
+            height: 32px;
+            line-height: 32px;
+            display: inline-block;
+            padding: 0 @spacing_m;
+            box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+            border: solid 1px #dee5e7;
+            background-color: #ffffff;
+        }
+    }
+}
+
+.product-form {
+    .ant-card {
+        box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+        + .ant-card {
+            margin-top: @spacing_m;
+        }
+    }
+    .ant-card-head {
+        background-color: #f6f8f8;
+        font-weight: 600;
+        height: @size_modal_with_card_height;
+        display: flex;
+        align-items: center;
+
+        .ant-card-head-wrapper {
+            flex: 1;
+        }
+    }
+
+    .ant-input,
+    .ant-input-number-input {
+        min-height: @size_input_height;
+    }
+
+    .ant-select-selector {
+        min-height: @size_input_height;
+
+        .ant-select-selection {
+            &-placeholder {
+                line-height: @size_input_height !important;
+            }
+
+            &-search,
+            &-item {
+                min-height: @size_input_height;
+                line-height: @size_input_height !important;
+            }
+        }
+    }
+}
+
+.prod-form-properties {
+    &__select {
+        .ant-select-selector > span:first-child {
+            margin-left: -8px;
+        }
+    }
+    &__tag {
+        background-color: #0872d7;
+        line-height: 24px;
+        height: 24px;
+        border-radius: 2px;
+        padding: 0 4px;
+        margin-left: 8px;
+        .ant-typography {
+            color: #ffffff;
+        }
+    }
+}
+
+.primary-text {
+    color: @background_primary;
+}

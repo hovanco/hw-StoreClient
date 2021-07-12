@@ -1,0 +1,18 @@
+.wrap {
+    padding-top: @size_header;
+    padding-bottom: @size_header;
+
+    min-height: 100vh;
+
+    .content {
+        padding: @spacing_m + 4px @spacing_m;
+    }
+}
+
+.site-layout {
+    &.is-collapsed {
+        .header--wrap {
+            width: calc(100% - 80px);
+        }
+    }
+}

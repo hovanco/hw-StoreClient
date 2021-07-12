@@ -1,0 +1,48 @@
+.inventory-form {
+    .ant-card {
+        box-shadow: 0 2px 2px 0 rgba(10, 15, 48, 0.16);
+        border: solid 1px #dee5e7;
+        + .ant-card {
+            margin-top: @spacing_m;
+        }
+    }
+    .ant-card-head {
+        background-color: @color_form_header;
+    }
+    .ant-table-thead > tr > th {
+        background-color: transparent;
+    }
+    &__product-tbl {
+        .ant-table-title {
+            display: none;
+        }
+    }
+    &__payment {
+        .ant-radio-wrapper {
+            display: flex;
+            align-items: center;
+            + .ant-radio-wrapper {
+                margin-top: 12px;
+            }
+        }
+    }
+}
+.inventory-form-product__summary {
+    .item {
+        margin-top: 8px;
+        .ant-typography.underline {
+            text-decoration: underline;
+        }
+    }
+}
+.product-tbl__text-round {
+    // .ant-table-row-level-1 & {
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    padding: 0 @spacing_m;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #dee5e7;
+    background-color: #ffffff;
+    // }
+}

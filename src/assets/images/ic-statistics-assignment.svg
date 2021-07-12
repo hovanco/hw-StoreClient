@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic-statistics-7" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#fff;fill-rule:evenodd}
+        </style>
+    </defs>
+    <path id="Rectangle_244" fill="none" d="M0 0H24V24H0z"/>
+    <g id="Layer">
+        <g id="Vrstva_238">
+            <path id="Path_497" d="M16 10.5a6 6 0 1 0 6 6 6 6 0 0 0-6-6zm0 10a4 4 0 1 1 4-4 4 4 0 0 1-4 4z" class="cls-2"/>
+            <path id="Path_498" d="M14 6.5a5 5 0 1 0-5 5 5 5 0 0 0 5-5zm-5 3a3 3 0 1 1 3-3 3 3 0 0 1-3 3z" class="cls-2"/>
+            <path id="Path_499" d="M5.5 12.5A3.5 3.5 0 1 0 9 16a3.5 3.5 0 0 0-3.5-3.5zm0 5A1.5 1.5 0 1 1 7 16a1.5 1.5 0 0 1-1.5 1.5z" class="cls-2"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,116 @@
+.variant-detail {
+    padding: @spacing_m;
+
+    .ant-card {
+        box-shadow: 0 2px 2px 0 rgba(10, 15, 48, 0.16);
+        border: solid 1px @border_color;
+
+        + .ant-card {
+            margin-top: @spacing_m;
+        }
+
+        .ant-card-head {
+            background-color: @color_form_header;
+            height: @size_modal_with_card_height;
+            font-size: 16px;
+            font-weight: 500;
+            color: @text-color;
+
+            .ant-card-head-wrapper {
+                display: flex;
+                align-items: center;
+                height: @size_modal_with_card_height;
+            }
+        }
+
+        .ant-card-body {
+            padding: 15px 25px 25px 25px;
+
+            .ant-form-item:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .ant-input,
+    .ant-input-number {
+        height: @size_input_height;
+        width: 100%;
+        color: @text_color;
+
+        input {
+            height: @size_input_height;
+        }
+    }
+
+    .ant-form-item-label {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.21;
+        color: @text-color;
+    }
+
+    .card-variant-list {
+        .ant-card-body {
+            padding: 0;
+        }
+    }
+
+    .variant-list {
+        &-item {
+            height: 64px;
+            padding: 11px 24px;
+            cursor: pointer;
+
+            &:not(:last-child) {
+                border-bottom: solid 1px @border_color;
+            }
+
+            &.active {
+                color: #ffffff;
+                background-color: @color_primary;
+            }
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .attribute-image-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .attribute-image-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 11px 21px;
+            border: 1px dashed @color_primary;
+            border-radius: 2px;
+
+            .ant-avatar-image {
+                margin-bottom: 10px;
+
+                + span {
+                    color: @color_primary;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.variant-parent-about {
+    .product-name {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .product-variants-length {
+        font-size: 13px;
+    }
+}

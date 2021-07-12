@@ -1,0 +1,9 @@
+const types = {
+    INIT_STATE: 'billings/INIT_STATE',
+    UPDATE_PACKAGES: 'billings/UPDATE_PACKAGES',
+    UPDATE_BILLING_CYCLE: 'billings/UPDATE_BILLING_CYCLE',
+    UPDATE_PAYMENT_METHODS: 'billings/UPDATE_PAYMENT_METHODS',
+    CHANGE_VALUE_FIELD: 'billings/CHANGE_VALUE_FIELD',
+};
+
+export default types

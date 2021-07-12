@@ -1,0 +1,63 @@
+.header {
+    height: @size_header;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    background: @color_secondary;
+    padding: 0 @size_space;
+
+    .header-left {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: @size_space;
+    }
+
+    .menus {
+        display: flex;
+        align-items: center;
+
+        .menu {
+            height: @size_header;
+            padding: 0 @size_space;
+            cursor: pointer;
+            color: #fff;
+            line-height: @size_header;
+
+            .text {
+                margin: 0 5px;
+            }
+
+            .down {
+                margin-left: 5px;
+            }
+
+            &:hover,
+            &.selected {
+                background: #41558b;
+            }
+        }
+    }
+
+    .user-dropdown {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-left: @size_space - 5px;
+    
+        .username {
+            font-size: 13px;
+            line-height: 1.77;
+            text-align: right;
+            color: #4f5356;
+            margin-right: 10px;
+        }
+    
+        .anticon {
+            margin-right: 15px;
+        }
+    }
+}

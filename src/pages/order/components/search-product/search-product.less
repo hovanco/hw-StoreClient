@@ -1,0 +1,38 @@
+.search-product {
+    position: relative;
+
+    .products-dropdown {
+        max-height: 400px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .product-row {
+        padding: 12px 16px;
+        border-bottom: 1px solid #dee5e7;
+        cursor: pointer;
+
+        .quantity {
+            font-weight: 500;
+        }
+
+        .attributes {
+            font-size: 13px;
+        }
+
+        &.disabled {
+            background: @border_color!important;
+            color: inherit !important;
+            cursor: not-allowed;
+        }
+
+        &:last-child {
+            border: none;
+        }
+
+        &:hover {
+            background: @color_primary;
+            color: #fff;
+        }
+    }
+}

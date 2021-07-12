@@ -1,0 +1,74 @@
+@sizeImage: 70px;
+
+.productImage {
+    position: relative;
+    margin-bottom: 16px;
+    border-radius: 2px;
+
+    .img {
+        position: relative;
+        width: @sizeImage;
+        height: @sizeImage;
+        cursor: pointer;
+        border: 1px solid #eee;
+        border-radius: 2px;
+        background: #fff;
+
+        img {
+            display: block;
+            height: 100%;
+            width: 100%;
+            border-radius: 2px;
+        }
+
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .check {
+            display: none;
+            background: #fff;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            line-height: 30px;
+            position: absolute;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: @color_primary;
+            border: 1px solid #eeeeee;
+        }
+
+        &:hover {
+            .check {
+                display: block;
+            }
+        }
+    }
+
+    .remove {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #eeeeee;
+        height: 20px;
+        width: 20px;
+        background: #fff;
+        border-radius: 50%;
+        font-size: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: red;
+            color: #fff;
+        }
+    }
+}

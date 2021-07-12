@@ -1,0 +1,104 @@
+.table {
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #dee5e7;
+    border-radius: 2px;
+    background-color: #fff;
+
+    .ant-table-title,
+    .ant-table-container,
+    .ant-table-footer {
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .ant-table-content {
+        tr {
+            th:last-child,
+            td:last-child {
+                border-right: none !important;
+            }
+        }
+    }
+
+    &__header {
+        &__extend {
+            padding: @spacing_m 22px;
+        }
+    }
+    .ant-table-title {
+        padding: 0;
+        h4 {
+            background-color: #f6f8f8;
+            height: 50px;
+            padding: 14px @spacing_m;
+            margin: 0;
+            font-weight: 500;
+            font-size: 16px;
+            border-bottom: 1px solid @border_color;
+        }
+    }
+    .ant-table-row-expand-icon {
+        display: none;
+    }
+    .ant-table-footer {
+        background: #ffffff;
+        padding-bottom: 34px;
+    }
+
+    .ant-table-pagination {
+        padding-right: @spacing_m;
+
+        .ant-pagination-total-text {
+            position: absolute;
+            left: @spacing_m;
+        }
+    }
+
+    &.showTotal {
+        .ant-table-pagination {
+            padding-right: 9px;
+        }
+    }
+
+    .ant-table-row.ant-table-row-level-1 {
+        &:hover {
+            td {
+                background-color: #ffffff;
+            }
+        }
+        .ant-table-cell.ant-table-cell-with-append {
+            text-indent: -9999px;
+            border-bottom-color: transparent;
+        }
+        td:last-child {
+            text-indent: -9999px;
+            border-bottom-color: transparent;
+        }
+        + .ant-table-row.ant-table-row-level-0 {
+            td:last-child,
+            td:first-child {
+                border-top: 1px solid #f0f0f0;
+            }
+        }
+        .ant-btn-link {
+            color: @text_color;
+        }
+    }
+    .table-row-dark {
+        background-color: #f9fafc;
+    }
+
+    .ant-select-selector {
+        height: 32px !important;
+
+        .ant-select-selection-item {
+            line-height: 32px;
+        }
+    }
+
+    &.hover {
+        tbody tr td {
+            cursor: pointer;
+        }
+    }
+}

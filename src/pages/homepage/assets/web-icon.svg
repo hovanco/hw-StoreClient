@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+    <defs>
+        <style>
+            .cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_2081" transform="translate(-805 -1377.092)">
+        <rect id="Rectangle_683" width="34" height="34" fill="#6c6fbf" rx="2" transform="translate(805 1377.092)"/>
+        <g id="ic-contact-browser" transform="translate(812 1384.092)">
+            <path id="Rectangle_83" fill="none" d="M0 0H20V20H0z"/>
+            <g id="Layer" transform="translate(.849 .849)">
+                <g id="Vrstva_150">
+                    <path id="Path_154" d="M17.135 1H3.548A2.548 2.548 0 0 0 1 3.548v13.587a2.548 2.548 0 0 0 2.548 2.548h13.587a2.548 2.548 0 0 0 2.548-2.548V3.548A2.548 2.548 0 0 0 17.135 1zM3.548 2.7h13.587a.849.849 0 0 1 .849.849V6.1H2.7V3.548a.849.849 0 0 1 .848-.848zm13.587 15.284H3.548a.849.849 0 0 1-.849-.849V7.794h15.285v9.341a.849.849 0 0 1-.849.849z" class="cls-3" transform="translate(-1 -1)"/>
+                    <rect id="Rectangle_7" width="1.698" height="1.698" class="cls-3" rx=".2" transform="translate(2.548 2.548)"/>
+                    <rect id="Rectangle_8" width="1.698" height="1.698" class="cls-3" rx=".2" transform="translate(5.095 2.548)"/>
+                    <rect id="Rectangle_9" width="1.698" height="1.698" class="cls-3" rx=".2" transform="translate(7.643 2.548)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

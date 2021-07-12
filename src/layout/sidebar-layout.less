@@ -1,0 +1,24 @@
+.wrap-layout-sidebar {
+    display: flex;
+    flex: 1;
+    height: calc(100vh - @size_header);
+
+    flex-direction: row;
+
+    .main {
+        flex: 1;
+
+        .heading {
+            padding: @size_space @size_space + 5;
+            border-bottom: 1px solid @color_border;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .content {
+            padding: @size_space + 5;
+            height: calc(100vh - 110px);
+            overflow-y: auto;
+        }
+    }
+}

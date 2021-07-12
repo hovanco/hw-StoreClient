@@ -1,0 +1,48 @@
+.overview {
+    &-card {
+        box-shadow: 0 2px 2px 0 rgba(10, 15, 48, 0.16);
+
+        background-color: #ffffff;
+
+        .ant-card-body {
+            height: 100%;
+        }
+
+        &-customer {
+            background: @color_primary;
+        }
+
+        &-order {
+            background: @color_delivery;
+        }
+    }
+
+    &-number {
+        text-align: center;
+        min-height: 105px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .number {
+            font-size: 36px;
+            font-weight: 300;
+            line-height: 1.19;
+            letter-spacing: 0.58px;
+            color: @color_primary;
+        }
+
+        .label {
+            font-size: 13px;
+            line-height: 1.62;
+            color: #99a6ad;
+        }
+    }
+}
+
+.user-guide {
+    .title {
+        color: @color_primary;
+    }
+}

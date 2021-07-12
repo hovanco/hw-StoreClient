@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic-ecommerce-money" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <path id="Rectangle_115" fill="none" d="M0 0H16V16H0z"/>
+    <g id="ic-ecommerce-money-2" transform="translate(.667 3.333)">
+        <g id="Layer">
+            <path id="Path_205" d="M13.667 5H3a2 2 0 0 0-2 2v5.333a2 2 0 0 0 2 2h10.667a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm-1.94 8H4.94a3.207 3.207 0 0 0-2.607-2.607V8.94A3.207 3.207 0 0 0 4.94 6.333h6.787a3.207 3.207 0 0 0 2.606 2.607v1.453A3.207 3.207 0 0 0 11.727 13zm1.94-6.667a.667.667 0 0 1 .666.667v.58a1.907 1.907 0 0 1-1.247-1.247zm-10.087 0A1.907 1.907 0 0 1 2.333 7.58V7A.667.667 0 0 1 3 6.333zM3 13a.667.667 0 0 1-.667-.667v-.58A1.907 1.907 0 0 1 3.58 13zm10.087 0a1.907 1.907 0 0 1 1.247-1.247v.58a.667.667 0 0 1-.667.667z" class="cls-2" transform="translate(-1 -5)"/>
+        </g>
+        <g id="Layer-2" transform="translate(5.56 2.48)">
+            <path id="Path_206" d="M11.34 8.72a2 2 0 1 0 2 2 2 2 0 0 0-2-2zm0 2.667a.667.667 0 1 1 .667-.667.667.667 0 0 1-.667.667z" class="cls-2" transform="translate(-9.34 -8.72)"/>
+        </g>
+    </g>
+</svg>

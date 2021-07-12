@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon16.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta property="og:image" content="https://insa.app/images/hero-vector.png" />
+        <meta property="fb:app_id" content="869271730321807" />
+        <meta name="description" content="Nền tảng quản lý và bán hàng đa kênh INSA" />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+        <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+        <title>Insa Store</title>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+        <script src="https://wchat.freshchat.com/js/widget.js"></script>
+        <script>
+            window.fcWidget.init({
+                token: '1ad5e919-8604-4366-9a91-b5b734275b92',
+                host: 'https://wchat.freshchat.com',
+                config: {
+                    disableEvents: true,
+                    cssNames: {
+                        widget: 'fc_frame',
+                        open: 'fc_open',
+                        expanded: 'fc_expanded',
+                    },
+                    // showFAQOnOpen: true,
+                    hideFAQ: false,
+                    agent: {
+                        hideName: false,
+                        hidePic: false,
+                        hideBio: false,
+                    },
+                    headerProperty: {
+                        //If you have multiple sites you can use the appName and appLogo to overwrite the values.
+                        appName: 'INSA',
+                        appLogo: 'https://insa.app/images/favicon16.svg',
+                        /*         backgroundColor: '#FFFF00',
+                    foregroundColor: '#333333', */
+                        backgroundImage:
+                            'https://wchat.freshchat.com/assets/images/texture_background_1-bdc7191884a15871ed640bcb0635e7e7.png',
+                    },
+                    content: {
+                        placeholders: {
+                            search_field: 'Search',
+                            reply_field: 'Reply',
+                            csat_reply: 'Add your comments here',
+                        },
+                        actions: {
+                            csat_yes: 'Yes',
+                            csat_no: 'No',
+                            push_notify_yes: 'Yes',
+                            push_notify_no: 'No',
+                            tab_faq: 'Solutions',
+                            tab_chat: 'Chat',
+                            csat_submit: 'Submit',
+                        },
+                        headers: {
+                            chat: 'INSA lắng nghe bạn',
+                            chat_help: 'Reach out to us if you have any questions',
+                            faq: 'Hướng dẫn sử dụng',
+                            faq_help: 'Browse our articles',
+                            faq_not_available: 'No Articles Found',
+                            faq_search_not_available: 'No articles were found for {{query}}',
+                            faq_useful: 'Was this article helpful?',
+                            faq_thankyou: 'Thank you for your feedback',
+                            faq_message_us: 'Message Us',
+                            push_notification:
+                                "Don't miss out on any replies! Allow push notifications?",
+                            csat_question: 'Did we address your concerns??',
+                            csat_yes_question: 'How would you rate this interaction?',
+                            csat_no_question: 'How could we have helped better?',
+                            csat_thankyou: 'Thanks for the response',
+                            csat_rate_here: 'Submit your rating here',
+                            channel_response: {
+                                offline: 'We are currently away. Please leave us a message',
+                                online: {
+                                    minutes: {
+                                        one: 'Currently replying in {!time!} minutes ',
+                                        more: 'Typically replies in {!time!} minutes',
+                                    },
+                                    hours: {
+                                        one: 'Currently replying in under an hour',
+                                        more: 'Typically replies in {!time!} hours',
+                                    },
+                                },
+                            },
+                        },
+                    },
+                },
+            });
+        </script>
+
+        <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    --></body>
+</html>

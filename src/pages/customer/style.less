@@ -1,0 +1,42 @@
+.order-tbl {
+    &-header {
+        width: 100%;
+    }
+    .setting-column {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .blue-text {
+        color: @color_primary;
+    }
+}
+
+.page-top-wrapper {
+    padding-left: @spacing_m;
+}
+.filer-order-dropdown {
+    .filter-status-gray {
+        background-color: @background_gray;
+        span {
+            color: @color_text_black;
+        }
+    }
+    .filter-status-blue {
+        background-color: @color_primary;
+        span {
+            color: @color_text_white;
+        }
+    }
+    .filter-btn-item {
+        .filter-btn {
+            margin: 0;
+            background-color: @background_purple;
+            min-width: 180px;
+            span {
+                color: @color_text_white;
+            }
+        }
+    }
+}

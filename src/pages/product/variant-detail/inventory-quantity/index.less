@@ -1,0 +1,95 @@
+.inventory-quantity {
+    .ant-input-affix-wrapper {
+        height: @size_input_height;
+
+        .ant-input {
+            height: unset;
+        }
+    }
+
+    .ant-btn {
+        height: @size_input_height;
+        width: 120px;
+
+        > span {
+            color: @background_primary;
+            font-weight: 600;
+        }
+    }
+
+    .table-inventory-quantity {
+        margin-top: @spacing_s;
+        border: none;
+
+        .ant-table-thead {
+            th.ant-table-cell {
+                height: @size_modal_with_card_height;
+                background-color: #ffffff;
+                font-weight: 600;
+                color: @text-color;
+            }
+        }
+    }
+
+    .ant-input-number-handler-wrap {
+        display: none;
+    }
+
+    .ant-input-number-input-wrap {
+        > input {
+            text-align: center;
+            color: #525253;
+        }
+    }
+}
+
+.secondary-text {
+    color: #525253;
+}
+
+.un-card-padding {
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.modal-select-warehouse {
+    .ant-modal-header {
+        height: @size_modal_with_card_height;
+        display: flex;
+        align-items: center;
+    }
+
+    .ant-input {
+        height: @input-height-base;
+    }
+
+    .checkbox-group-label {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        color: @text-color;
+        font-weight: 500;
+    }
+
+    .ant-checkbox-group {
+        display: flex;
+        flex-direction: column;
+        margin-left: 35px;
+
+        label {
+            & + label {
+                margin-top: 8px;
+            }
+        }
+
+        .ant-checkbox-checked {
+            & + span {
+                color: @background_purple;
+            }
+        }
+    }
+
+    .footer {
+        width: 100%;
+        justify-content: flex-end;
+    }
+}

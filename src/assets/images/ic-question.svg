@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+    <g>
+        <text fill="#575353" font-family="SFProDisplay-Semibold, SF Pro Display" font-size="8px" font-weight="600" transform="translate(-1342 -87) translate(1347 97)">
+            <tspan x="0" y="0">?</tspan>
+        </text>
+        <g fill="none" stroke="#575353" transform="translate(-1342 -87) translate(1342 87)">
+            <circle cx="7" cy="7" r="7" stroke="none"/>
+            <circle cx="7" cy="7" r="6.5"/>
+        </g>
+    </g>
+</svg>

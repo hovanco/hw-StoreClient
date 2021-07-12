@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic-actions-timer" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#fff;fill-rule:evenodd}
+        </style>
+    </defs>
+    <path id="Rectangle_310" fill="none" d="M0 0H24V24H0z"/>
+    <g id="Layer">
+        <path id="Path_694" d="M12 4.5a9 9 0 1 0 9 9 9 9 0 0 0-9-9zm0 16a7 7 0 1 1 7-7 7 7 0 0 1-7 7z" class="cls-2"/>
+        <path id="Path_695" d="M13 14V9.5a1 1 0 0 0-2 0v4.89a1.21 1.21 0 0 0 .53 1l2.92 1.94a1 1 0 1 0 1.1-1.66z" class="cls-2"/>
+        <path id="Path_696" d="M10 3.5h4a1 1 0 0 0 0-2h-4a1 1 0 0 0 0 2z" class="cls-2"/>
+    </g>
+</svg>

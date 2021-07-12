@@ -1,0 +1,28 @@
+.logo {
+  color: #ffffff;
+  background-color: #1a2d41;
+  height: @size_header;
+  line-height: @size_header;
+  text-align: center;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  z-index: 10;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  transition: all 200ms;
+  .ant-layout-sider-collapsed & {
+    width: 80px;
+  }
+  img {
+    height: 36px;
+  }
+  .ant-layout-sider-collapsed & {
+    img {
+      object-fit: cover;
+      object-position: left;
+      width: 36px;
+    }
+  }
+}

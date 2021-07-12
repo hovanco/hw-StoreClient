@@ -1,0 +1,114 @@
+.order-tbl {
+    .table__footer {
+        .ant-typography {
+            color: @text_color;
+        }
+    }
+
+    .ant-pagination-item {
+        > a {
+            color: @background_primary;
+        }
+
+        &.ant-pagination-item-active {
+            background-color: @color_primary;
+            
+            > a {
+                color: @color_text_white;
+            }
+        }
+    }
+
+    .ant-pagination-item-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        > span > svg {
+            fill: @background_primary;
+            width: 10px;
+            height: 10px;
+        }
+    }
+}
+
+.orders-actions {
+
+    @content_height: 32px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+
+    &:not(.not-select) {
+        background: #ffffff;
+    }
+
+    .checkbox-section {
+        background: #f4f6f8;
+        border:solid .1px #c4cdd5;
+        border-radius: @size_border_radius;
+        margin-left: 16px;
+        height: @content_height;
+        line-height: 30px;
+        padding: 0 5px;
+        box-shadow: 0 1px 0 0 rgba(22,29,37,.05);
+
+        .checkbox-next-text {
+            font-weight: normal;
+            color: #717171;
+            margin-left: 10px;
+        }
+
+        .down-icon-suffix {
+            margin-left: 5px;
+        }
+    }
+
+    .order-dropdown-action {
+        & > button {
+            height: @content_height;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.ant-dropdown {
+    .ant-menu {
+        border-radius: 2px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        border: solid 1px @border_color;
+        background-color: #ffffff;
+
+        &-item-active {
+            background: @background_gray;
+        }
+    }
+}
+
+.customer-tbl-header {
+    .advance-filter {
+        color: #717171;
+    }
+    .source-filter {
+        margin-right: 15px;
+    }
+}
+
+.customer-actions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    z-index: 100;
+}

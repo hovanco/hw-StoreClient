@@ -1,0 +1,21 @@
+.sidebar {
+    background: @color_sidebar_bg;
+    width: 45px;
+    flex-shrink: 0;
+
+    &-item {
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: @color_sidebar_color;
+        font-size: 18px;
+
+        &.active,
+        &:hover {
+            background: @color_sidebar_bg_hover;
+            color: @color_sidebar_color_hover;
+        }
+    }
+}

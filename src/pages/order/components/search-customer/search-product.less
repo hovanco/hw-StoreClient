@@ -1,0 +1,42 @@
+.search-customer {
+    position: relative;
+
+    .customers-list {
+        max-height: 350px;
+        overflow-y: auto;
+
+        .customer-row {
+            padding: @size-space / 2 @size-space;
+            border-bottom: 1px solid @color-border;
+            cursor: pointer;
+
+            .customer-phoneNo {
+                color: @color_primary;
+            }
+
+            &:hover {
+                background: @color_primary;
+                color: #fff;
+
+                .customer-phoneNo {
+                    color: #fff;
+                }
+
+                .avatar {
+                    color: @color_primary;
+                    border-color: @color_primary;
+                }
+            }
+
+            &:last-child {
+                border: none;
+            }
+        }
+    }
+
+    .add-customer {
+        border-top: 1px solid @color-border;
+        text-align: center;
+        padding: 7px;
+    }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic-chevron-left-right" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <path id="Rectangle_66" fill="none" d="M0 0H24V24H0z"/>
+    <g id="Layer">
+        <g id="Vrstva_125">
+            <path id="Path_126" d="M14.61 16.1a1 1 0 0 0 1.51 1.32l4.22-4.85a1.21 1.21 0 0 0 0-1.62l-4.19-4.4a1 1 0 1 0-1.41 1.42l3.53 3.71a.25.25 0 0 1 0 .33z" class="cls-2"/>
+            <path id="Path_127" d="M7.88 17.45a1 1 0 1 0 1.41-1.42L5.8 12.36a.25.25 0 0 1 0-.33L9.39 7.9a1 1 0 1 0-1.51-1.32l-4.22 4.85a1.21 1.21 0 0 0 0 1.62z" class="cls-2" transform="rotate(180 6.493 11.989)"/>
+        </g>
+    </g>
+</svg>

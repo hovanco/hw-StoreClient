@@ -1,0 +1,2 @@
+export const LOADING = 'SALE_CHANNEL/LOADING';
+export const LOAD_DONE = 'SALE_CHANNEL/LOAD_DONE';

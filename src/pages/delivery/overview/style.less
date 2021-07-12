@@ -1,0 +1,244 @@
+.btn-no-text {
+    margin-left: 2px;
+    img {
+        margin-right: 0px !important;
+    }
+}
+.close-btn {
+    margin-right: @spacing_m;
+}
+.order-create {
+    .dropdown-client {
+        border: 0;
+        background-color: transparent;
+        box-shadow: none;
+        color: @color_primary;
+        &:hover {
+            background-color: transparent;
+        }
+        span {
+            color: @color_primary !important;
+        }
+    }
+    .ant-form {
+        background-color: #ffffff;
+        margin-bottom: @spacing_s;
+        border: 1px solid @color_border;
+        h4 {
+            background-color: @color_form_header;
+            padding: @spacing_m / 2 @spacing_m;
+            &.special-title {
+                font-size: 10px;
+                padding: @spacing_m @spacing_m;
+            }
+        }
+        .col-title {
+            display: flex;
+            align-items: center;
+            &-right {
+                div {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                margin-bottom: @spacing_m;
+            }
+        }
+        .ant-row {
+            padding: 10px @spacing_m 0px @spacing_m;
+            &.form-table {
+                padding-left: 0;
+                padding-right: 0;
+                &.right {
+                    .ant-table-tbody {
+                        .ant-table-row:last-child {
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+            &.ant-form-item {
+                padding-bottom: @spacing_m;
+                .ant-radio-wrapper {
+                    display: block;
+                    margin: @spacing_m 0;
+                }
+                &.form-table {
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                    &.ship {
+                        margin-bottom: @spacing_s*5;
+                    }
+                }
+                &.form-radio {
+                    margin-bottom: 0;
+                    padding: 0 @spacing_m;
+                }
+                .ant-row {
+                    padding: 0;
+                }
+                p {
+                    margin-top: @spacing_m / 2;
+                }
+            }
+        }
+        table {
+            border: 1px solid @color_border;
+            border-left: 0;
+            border-right: 0;
+            th {
+                background-color: transparent;
+            }
+            input {
+                max-width: 58px;
+                text-align: center;
+            }
+        }
+        .btn-bottom {
+            color: @color_primary;
+            img {
+                color: @color_primary;
+                margin-right: @spacing_m;
+            }
+        }
+        .form-summary {
+            div {
+                display: flex;
+                justify-content: space-between;
+                span:last-child {
+                    width: 30%;
+                }
+                margin-bottom: @spacing_m / 2;
+            }
+            margin-bottom: @spacing_m*2;
+            min-width: 220px;
+        }
+        .btn-active {
+            span {
+                color: @color_primary;
+            }
+        }
+        .radio-img {
+            img {
+                width: 100px;
+                height: 25px;
+                margin-left: @spacing_m;
+            }
+        }
+        .confirm-order {
+            .ant-dropdown-trigger {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .ant-picker {
+                width: 100%;
+            }
+        }
+    }
+    .ant-tooltip-inner {
+        p {
+            margin: 0;
+        }
+    }
+    .ant-tooltip-open {
+        color: @color_primary;
+        text-decoration: underline;
+    }
+}
+.footer-btn {
+    margin-right: @spacing_m;
+    margin-bottom: @spacing_m*2;
+}
+.delivery-back-btn {
+    a {
+        display: block;
+    }
+    .ant-btn {
+        border: 0;
+        background-color: transparent;
+        padding-left: 0;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.015);
+    }
+    .delivery-pill {
+        margin: 0 0 0 20px;
+        border-radius: 26px;
+        width: 154px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        background-color: #6c6fbf;
+    }
+}
+.blue-text {
+    color: @color_primary;
+}
+.black-text {
+    color: #000000;
+    margin-bottom: 10px;
+}
+.delivery-slt {
+    .ant-select-selector {
+        background-color: #6c6fbf !important;
+        color: #ffffff !important;
+    }
+    .ant-select-arrow {
+        color: @color_form_header;
+    }
+}
+.delivery-card {
+    margin-left: -@spacing_m / 2;
+
+    .card-custom {
+        cursor: pointer;
+    }
+
+    .ant-card {
+        height: 100%;
+        text-align: center;
+
+        &.returned {
+            background-color: @color_delivery;
+        }
+        &.delivered {
+            background-color: @color_primary;
+        }
+        &.cancel {
+            background-color: @color_danger;
+        }
+
+        &.delivered,
+        &.cancel,
+        &.returned {
+            color: #fff;
+
+            .delivery-number,
+            .delivery-status {
+                color: #fff;
+            }
+        }
+
+        .ant-card-body {
+            padding: @spacing_m @spacing_m / 2;
+        }
+
+        .delivery-number {
+            font-size: 50px;
+            line-height: 60px;
+            color: @color_primary;
+        }
+
+        .delivery-status {
+            font-weight: 500;
+            color: #99a6ad;
+            text-transform: uppercase;
+            background: transparent;
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.modal-card-content.modal-sort-attribute {
+    .ant-modal-body {
+        .ant-card {
+            .ant-card-body {
+                padding-left: 0;
+                padding-right: 0;
+                padding-top: 0;
+            }
+
+            .ant-card-footer {
+                margin-top: 15px;
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+        }
+    }
+}
+
+.drag-drop-list-wrapper.sort-attributes {
+    .drag-drop-list-item {
+        height: 54px;
+        border-bottom: solid 1px @border_color;
+
+        div.drag-item {
+            width: 100%;
+            cursor: move;
+            margin: auto;
+
+            .ant-row {
+                height: 54px;
+
+                .ant-col {
+                    display: flex;
+                    align-items: center;
+
+                    &.ant-col-8 {
+                        padding-left: 25px;
+                    }
+                    
+                    .anticon {
+                        margin-right: 10px;
+                    }
+                }
+
+                &.background_purple {
+                    color: @background_purple;
+                }
+                &.background_gray {
+                    color: #9e9e9e;
+                }
+                &.background_primary {
+                    color: @background_primary;
+                }
+            }
+
+            .tag {
+                background-color: currentColor;
+                height: 25px;
+                display: flex;
+                padding: 4px 8px 4px 4px;
+                align-items: center;
+                border-radius: 2px;
+
+                .anticon {
+                    margin-right: 4px !important;
+                }
+
+                 > span {
+                     color: #ffffff;
+                 }
+            }
+        }
+    }     
+}
+
+.modal-sort-attribute {
+    .drag-item {
+        .ant-row {
+            .ant-col {
+                height: 54px;
+
+                & > div {
+                    width: 100%;
+
+                    .drag-drop-list-wrapper  {
+                        display: flex;
+
+                        .drag-drop-list-item:not(:last-child) {
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

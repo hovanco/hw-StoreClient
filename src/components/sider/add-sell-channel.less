@@ -1,0 +1,64 @@
+.modal-add-sell-channel {
+    .ant-modal-header {
+        padding-left: 27px;
+        height: 48px;
+        background-color: @color_form_header;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .ant-modal-body {
+        padding: 22px 27px;
+        position: relative;
+    }
+
+    .channel-section {
+        &__avatar {
+            margin-right: 16px;
+            margin-top: 5px;
+
+            > img {
+                object-fit: contain;
+            }
+        }
+
+        &__content {
+            &-name {
+                font-weight: 500;
+                line-height: 1.21;
+                color: @text-color;
+            }
+
+            &-description {
+                line-height: 1.29;
+                color: @text_color;
+            }
+        }
+
+        &__footer {
+            width: 100%;
+            justify-content: space-between;
+
+            .ant-btn {
+                color: #7c7c7d;
+            }
+        }
+    }
+}
+
+.primary-text {
+    font-weight: 500;
+    color: #0872d7;
+}
+
+.boundary-line {
+    width: 100%;
+    height: 1px;
+    background: #cfd2d4;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

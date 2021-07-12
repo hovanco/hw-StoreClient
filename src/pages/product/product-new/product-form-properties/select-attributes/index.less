@@ -1,0 +1,94 @@
+.select-attributes {
+    margin-bottom: 20px;
+
+    .add-new-attribute {
+        margin: 20px 0;
+    }
+
+    .select-attributes-item {
+        .ant-select {
+            width: 100%;
+
+            &.ant-select-multiple .ant-select-selector {
+                padding-top: 0;
+                padding-bottom: 0;
+                min-height: @size_input_height - 2;
+            }
+
+            .ant-select-selector {
+                min-height: @size_input_height;
+
+                .ant-select-selection-item {
+                    line-height: @size_input_height;
+                }
+
+                .prod-form-properties__tag {
+                    margin-top: 3px;
+                    margin-bottom: 3px;
+
+                    .ant-space-item {
+                        display: flex;
+                        align-items: center;
+
+                        & > img {
+                            cursor: pointer;
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .col-remove-attribute {
+        padding: 0 !important;
+        margin-top: 4px;
+    }
+
+    .suggest-tags {
+        font-size: 12px;
+        color: @text-color;
+        margin-top: 4px;
+    }
+}
+
+.tag-list {
+    white-space: normal;
+
+    .tag {
+        height: 17px;
+        background-color: #dee5e7;
+        margin: 0 4px;
+        display: inline-block;
+        padding: 0 5px;
+        color: #525253;
+        cursor: pointer;
+        margin-top: 4px;
+
+        &:hover {
+            color: #024e79;
+        }
+
+        &.disabled {
+            user-select: none;
+
+            &:hover {
+                color: #7d7d7e;
+            }
+        }
+    }
+}
+
+.add-new-attribute {
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #dee5e7;
+    background-color: #fcfcfd;
+    height: @size_input_height;
+    display: flex;
+    align-items: center;
+
+    img {
+        margin-right: 7px;
+    }
+}

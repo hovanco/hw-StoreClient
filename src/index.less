@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@import '~antd/dist/antd.less';
+
+.card-custom {
+    box-shadow: 0 2px 2px 0 rgba(10, 15, 48, 0.16);
+    background-color: #fff;
+
+    &.ant-card-type-inner {
+        .ant-card-head {
+            background: #f6f8f8;
+            border-bottom-color: #cfd2d4;
+        }
+
+        .ant-card-head-title {
+            font-size: 16px;
+        }
+    }
+}
+
+.card-shadow {
+    box-shadow: 0 2px 2px 0 rgba(10, 15, 48, 0.16);
+    background-color: #ffffff;
+
+}
+
+.ant-form-item {
+    .ant-form-item-label label {
+        font-weight: 500;
+    }
+}
+
+.text {
+    &-purple {
+        color: @background_purple;
+    }
+
+    &-primary {
+        color: @color_primary;
+    }
+
+    &-warning {
+        color: @color_warning;
+    }
+}
+
+.table-custom {
+    .ant-table.ant-table-bordered > .ant-table-container {
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+
+        table thead > tr th {
+            background-color: #fff;
+        }
+
+        table thead > tr th:last-child,
+        table tr td:last-child {
+            border-right: none !important;
+        }
+
+        table tr:nth-child(2n) td {
+            background: #fafbfc;
+        }
+    }
+}

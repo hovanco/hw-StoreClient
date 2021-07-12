@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" width="53.096" height="53.096" data-name="Layer 2" viewBox="0 0 53.096 53.096">
+    <defs>
+        <style>
+            .cls-1{fill:#dee5e7}
+        </style>
+    </defs>
+    <g id="OBJECTS">
+        <path id="Path_2492" d="M168.012 168.012H165.5v-.718h1.795V165.5h.718z" class="cls-1" data-name="Path 2492" transform="translate(-114.916 -114.916)"/>
+        <path id="Path_2493" d="M58.511 171.218h-3.577v-.718h3.577zm-7.151 0h-3.574v-.718h3.574zm-7.148 0h-3.573v-.718h3.574zm-7.151 0H33.5v-.718h3.562zm-7.148 0h-3.572v-.718h3.574zm-7.151 0H19.19v-.718h3.574z" class="cls-1" data-name="Path 2493" transform="translate(-12.302 -118.122)"/>
+        <path id="Path_2494" d="M2.512 168.012H0V165.5h.718v1.795h1.794z" class="cls-1" data-name="Path 2494" transform="translate(0 -114.916)"/>
+        <path id="Path_2495" d="M.718 58.511H0v-3.574h.718zm0-7.151H0v-3.574h.718zm0-7.148H0v-3.573h.718zm0-7.151H0V33.5h.718zm0-7.148H0v-3.572h.718zm0-7.148H0V19.19h.718z" class="cls-1" data-name="Path 2495" transform="translate(0 -12.302)"/>
+        <path id="Path_2496" d="M.718 2.512H0V0h2.512v.718H.718z" class="cls-1" data-name="Path 2496"/>
+        <path id="Path_2497" d="M58.511.718h-3.574V0h3.574zm-7.151 0h-3.574V0h3.574zm-7.148 0h-3.573V0h3.574zm-7.151 0H33.5V0h3.562zm-7.148 0h-3.572V0h3.574zm-7.151 0H19.19V0h3.574z" class="cls-1" data-name="Path 2497" transform="translate(-12.302)"/>
+        <path id="Path_2498" d="M168.012 2.512h-.718V.718H165.5V0h2.512z" class="cls-1" data-name="Path 2498" transform="translate(-114.916)"/>
+        <path id="Path_2499" d="M171.218 58.511h-.718v-3.574h.718zm0-7.151h-.718v-3.574h.718zm0-7.148h-.718v-3.573h.718zm0-7.151h-.718V33.5h.718zm0-7.148h-.718v-3.572h.718zm0-7.151h-.718V19.19h.718z" class="cls-1" data-name="Path 2499" transform="translate(-118.122 -12.302)"/>
+        <circle id="Ellipse_67" cx="3.657" cy="3.657" r="3.657" class="cls-1" data-name="Ellipse 67" transform="translate(14.046 14.458)"/>
+        <path id="Path_2500" d="M61.168 92.511V66.722a5.214 5.214 0 0 0-3.561-1.037 7.388 7.388 0 0 0-4.894 2.943c-.983 1.224-1.742 2.7-2.618 4.056a21.4 21.4 0 0 1-3.01 3.679 5.3 5.3 0 0 1-1.9 1.321 3.966 3.966 0 0 1-2.285-.054 40.942 40.942 0 0 1-4.8-2.057 6.68 6.68 0 0 0-4.965-.459c-1.977.765-3.352 2.871-4.519 5.1v12.304z" class="cls-1" data-name="Path 2500" transform="translate(-18.348 -48.024)"/>
+    </g>
+</svg>

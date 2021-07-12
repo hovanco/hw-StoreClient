@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic-ecommerce-tag" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <path id="Rectangle_118" fill="none" d="M0 0H16V16H0z"/>
+    <g id="Layer" transform="translate(2.667 .752)">
+        <g id="Vrstva_174">
+            <path id="Path_210" d="M10.113 1.415a1.193 1.193 0 0 0-1.56 0L4.7 4.748A2 2 0 0 0 4 6.235v7.387a2 2 0 0 0 2 2h6.667a2 2 0 0 0 2-2V6.235A2 2 0 0 0 14 4.722zm3.22 12.207a.667.667 0 0 1-.667.667H6a.667.667 0 0 1-.667-.667V6.235a.667.667 0 0 1 .233-.527L9.333 2.5 13.1 5.708a.667.667 0 0 1 .233.507z" class="cls-2" transform="translate(-4 -1.125)"/>
+            <circle id="Ellipse_17" cx="1" cy="1" r="1" class="cls-2" transform="translate(4 3.997)"/>
+        </g>
+    </g>
+</svg>

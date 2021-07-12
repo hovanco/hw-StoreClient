@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141.703" height="57.099" viewBox="0 0 141.703 57.099">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".545" x2=".542" y1="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#2e7fc2"/>
+            <stop offset="1" stop-color="#1b488c"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-5" x1=".152" x2=".875" y1=".404" y2=".481" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path">
+            <path id="Path_28" d="M902.088 766.45h-.07l-16.738 16.738v23.6l11.765-11.765 16.808-16.808z" class="cls-1" data-name="Path 28" transform="translate(-885.28 -766.45)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Path_35" d="M16.808 0h-.07L0 16.738v23.6l11.765-11.764 16.809-16.808z" class="cls-1" data-name="Path 35"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}.cls-5{fill:url(#linear-gradient-5)}.cls-6{clip-path:url(#clip-path-2)}
+        </style>
+    </defs>
+    <g id="Group_49" data-name="Group 49" transform="translate(-762 -431.092)">
+        <g id="Group_41" clip-path="url(#clip-path)" data-name="Group 41" transform="translate(762 431.092)">
+            <path id="Rectangle_24" d="M0 0H48.853V48.593H0z" class="cls-5" data-name="Rectangle 24" transform="rotate(-45.9 14.483 34.21)"/>
+        </g>
+        <g id="Group_48" class="cls-6" data-name="Group 48" transform="rotate(-90 625.056 -137.015)">
+            <path id="Rectangle_31" d="M0 0H48.853V48.593H0z" class="cls-5" data-name="Rectangle 31" transform="rotate(-45.9 14.483 34.21)"/>
+        </g>
+        <g id="Group_46" class="cls-6" data-name="Group 46" transform="rotate(90 193.854 625.095)">
+            <path id="Rectangle_29" d="M0 0H48.853V48.593H0z" class="cls-5" data-name="Rectangle 29" transform="rotate(-45.9 14.483 34.21)"/>
+        </g>
+        <g id="Group_47" class="cls-6" data-name="Group 47" transform="rotate(180 409.51 244.095)">
+            <path id="Rectangle_30" d="M0 0H48.853V48.593H0z" class="cls-5" data-name="Rectangle 30" transform="rotate(-45.9 14.483 34.21)"/>
+        </g>
+        <path id="Union_1" fill="url(#linear-gradient)" d="M17.218 12.4v10.29c0 .911 0 .911-.939.911H12.01c-1.055 0-1.062-.006-1.062-1.043L10.94 8.682V.857c0-.249.036-.5.056-.747l.16-.11 13.75 11.332V.934c0-.866.04-.908.9-.908h4.565c.683 0 .8.12.8.792v22.231a1.172 1.172 0 0 1-.192.634zm44.031 11.24c-.855-.011-1.712-.007-2.567-.007h-1.761c-.812-.006-.951-.233-.591-.981Q61.519 11.788 66.736.939c.106-.221.358-.372.542-.556.183.187.432.341.539.564Q73 11.784 78.157 22.626c.378.8.263.971-.621.971h-1.375c-1.123 0-2.248-.006-3.371.012a.746.746 0 0 1-.8-.528q-2.37-5.386-4.749-10.769c-.053-.121-.12-.236-.246-.487-.82 1.9-1.584 3.672-2.345 5.442-.826 1.92-1.663 3.837-2.461 5.766a.855.855 0 0 1-.91.607zm-24.69-3.226c-.987-.95-.981-1.026.1-1.836.966-.721 1.939-1.433 2.889-2.17a.619.619 0 0 1 1 .091 5.688 5.688 0 0 0 5.664 1.865 1.725 1.725 0 0 0 1.56-1.411 1.66 1.66 0 0 0-1.182-1.725c-1.086-.46-2.2-.848-3.323-1.228a10.438 10.438 0 0 1-4.34-2.431A6.536 6.536 0 0 1 37.2 5.9 6.784 6.784 0 0 1 43.229.213a14.573 14.573 0 0 1 2.065-.154 10.565 10.565 0 0 1 5.047 1.21 13.161 13.161 0 0 1 1.805 1.324.56.56 0 0 1 .051.951c-.877.91-1.749 1.825-2.6 2.756a.609.609 0 0 1-1.006.057 4.8 4.8 0 0 0-4.072-1.143 1.4 1.4 0 0 0-1.355 1.192A1.4 1.4 0 0 0 44 8.05c1.087.456 2.213.82 3.33 1.2a13.009 13.009 0 0 1 4.594 2.368 5.919 5.919 0 0 1 1.937 4.589 6.593 6.593 0 0 1-2.545 5.761 8.357 8.357 0 0 1-3.991 1.5c-.7.1-1.412.114-2.119.167a12.033 12.033 0 0 1-8.647-3.221zM.711 23.605c-.513 0-.705-.2-.705-.723Q.018 11.825 0 .769C0 .2.247.019.769.019h.025c1 .011 1.995.007 2.992.007h1.692c.705 0 .826.122.826.83v21.877c0 .831-.035.864-.873.864H4.06c-1.1 0-2.209-.007-3.313.01z" data-name="Union 1" transform="translate(825.341 447.938)"/>
+    </g>
+</svg>

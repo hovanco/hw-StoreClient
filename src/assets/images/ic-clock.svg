@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer" width="14.923" height="15.91" viewBox="0 0 14.923 15.91">
+    <defs>
+        <style>
+            .cls-1{fill:#99a6ad;fill-rule:evenodd}
+        </style>
+    </defs>
+    <path id="Path_694" d="M10.461 4.5A7.224 7.224 0 0 0 3 11.461a7.224 7.224 0 0 0 7.461 6.961 7.224 7.224 0 0 0 7.461-6.961A7.224 7.224 0 0 0 10.461 4.5zm0 12.376a5.619 5.619 0 0 1-5.8-5.414 5.619 5.619 0 0 1 5.8-5.414 5.619 5.619 0 0 1 5.8 5.414 5.619 5.619 0 0 1-5.8 5.414z" class="cls-1" data-name="Path 694" transform="translate(-3 -2.513)"/>
+    <path id="Path_695" d="M12.325 12.143V9.162a.662.662 0 0 0-1.325 0V12.4a.8.8 0 0 0 .351.662l1.934 1.285a.662.662 0 1 0 .729-1.1z" class="cls-1" data-name="Path 695" transform="translate(-3.844 -2.692)"/>
+    <path id="Path_696" d="M9.662 2.825h2.649a.662.662 0 0 0 0-1.325H9.662a.662.662 0 1 0 0 1.325z" class="cls-1" data-name="Path 696" transform="translate(-3.526 -1.5)"/>
+</svg>

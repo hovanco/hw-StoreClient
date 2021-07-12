@@ -1,0 +1,28 @@
+.inventory-update-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .group-label {
+        border: .5px solid @border_color;
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        border-right: 0;
+        padding: 0 @spacing_m;
+        border-top-left-radius: @size_border_radius;
+        border-bottom-left-radius: @size_border_radius;
+        font-weight: 500;
+        background-color: @background_gray;
+    }
+
+    .ant-input-number {
+        .ant-input-number-handler-wrap {
+            display: none;
+        }
+
+        .ant-input-number-input {
+            text-align: center;
+        }
+    }
+}
